@@ -1,0 +1,137 @@
+.simonWrapper{
+    background-color: brown;
+    height: 50vh;
+    width: 50vh;
+    align-self: center;
+    border-radius: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.yellow_btn{
+    background-color: yellow;
+    height: 50px;
+    width: 50px;
+}
+.green_btn{
+    background-color: green;
+    height: 50px;
+    width: 50px;
+}
+.red_btn{
+    background-color: red;
+    height: 50px;
+    width: 50px;
+}
+.blue_btn{
+    background-color: blue;
+    height: 50px;
+    width: 50px;
+}
+
+#trapezoidUp {
+    border-bottom: 50px solid red;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    height: 0;
+    width: 50px;
+}
+#trapezoidUpActive {
+    border-bottom: 50px solid red;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    height: 0;
+    width: 50px;
+    opacity: 0.75;
+    
+}
+#trapezoidLeft {
+    border-bottom: 50px solid yellow;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    height: 0;
+    width: 50px;
+    transform: rotate(270deg) scaleX(-1);
+}
+#trapezoidLeftActive {
+    border-bottom: 50px solid yellow;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    height: 0;
+    width: 50px;
+    opacity: 0.75;
+    transform: rotate(270deg) scaleX(-1);
+
+}
+#trapezoidRight {
+    border-bottom: 50px solid green;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    height: 0;
+    width: 50px;
+    transform: rotate(90deg) scaleX(-1);
+}
+#trapezoidRightActive {
+    border-bottom: 50px solid green;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    height: 0;
+    width: 50px;
+    opacity: 0.75;
+    transform: rotate(90deg) scaleX(-1);
+
+}
+#trapezoidDown {
+    border-bottom: 50px solid blue;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    height: 0;
+    width: 50px;
+    transform: rotate(180deg) scaleX(-1);
+}
+#trapezoidDownActive {
+    border-bottom: 50px solid blue;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    height: 0;
+    width: 50px;
+    opacity: 0.75;
+    transform: rotate(180deg) scaleX(-1);
+
+}
+
+.simonRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-grow: 1;
+    width: 100%;
+}
+
+.play_btn{
+    /* flex-grow: 1; */
+    height: 80%;
+    width: 25%;
+
+    background-color: black;
+    border-radius: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.timerWrapper{
+    width: 100%;
+    flex-grow: 1;
+}

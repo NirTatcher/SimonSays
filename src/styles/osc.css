@@ -1,0 +1,66 @@
+.green-man{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    width: 25vh;
+    height: 25vh;
+    background-color: green;
+    position: absolute;
+    
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+.eyes-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.eye{
+    display: flex;
+    height: 4vh;
+    width: 4vh;
+    border: violet 1px solid;
+    background-color: white;
+    justify-self: center;
+    margin-top: 4vh;
+    border-radius: 10vh;
+}
+
+.mouth-wrapper{
+    height: 5vh;
+    width: 10vh;
+    margin-top: 10vh;
+    align-self: center;
+    background-color: white;
+    border-radius: 0vh;
+    background-color: red;
+  
+}
+
+@keyframes example {
+    0%   {background-color:red; align-self: center;}
+    25%  {background-color:yellow; align-self: flex-end;}
+    50%  {background-color:blue; align-self: flex-start;}
+    75%  {background-color:green; align-self: baseline;}
+    100% {background-color:red; align-self: center;}
+  }
+
+  .mouth-wrapper-animation{
+    height: 5vh;
+    width: 10vh;
+    margin-top: 10vh;
+    align-self: center;
+    background-color: white;
+    border-radius: 10vh;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+  }
+  
